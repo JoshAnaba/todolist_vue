@@ -26,7 +26,7 @@ export default {
     div{
         color: rgb(255, 255, 255);
         background: rgb(88, 88, 88);
-        min-width: 80px;
+        min-width: 20%;
         text-align: center;
         padding: 10PX;
         cursor: pointer;

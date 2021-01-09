@@ -15,12 +15,14 @@
 import {v4 as uuidv4} from 'uuid'
 export default {
     name: "AddTodo",
+
     data(){
         return {
             title: '',
             state: 'default'
         }
     },
+
     methods: {
         addTodo(){
             const newTodo ={
@@ -34,7 +36,7 @@ export default {
                 this.title = '';
             }
         },
-
+        
         changeState(newState){
             this.state = newState;
             this.title= ''
