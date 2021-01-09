@@ -9,6 +9,10 @@
 </template>
 
 <style lang="scss" scoped>
+.about{
+  padding: 10px;
+}
+
 h1{
   text-align: center;
 }
