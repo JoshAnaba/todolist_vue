@@ -64,7 +64,6 @@ export default {
             }
         }
     }
-    
 }
 form{
     display: flex;
